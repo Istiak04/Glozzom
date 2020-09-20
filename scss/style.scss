@@ -1,0 +1,208 @@
+$dark-overlay:rgba(51, 51, 51, 0.8);
+$icon-size:4rem;
+.navbar{
+    .nav-item{
+        padding-left:1em;
+        .nav-link{
+        text-transform:uppercase;
+}
+}
+}
+#slider{
+    h3{
+        color:#fff;
+    }
+}
+
+.carousel-item{
+    height:450px;
+}
+.carousel-img-1{
+    background:url("../img/image1.jpeg");
+    background-size:100% 100%;
+}
+.carousel-img-2{
+    background:url("../img/image2.jpeg");
+    background-size:100% 100%;
+}
+.carousel-img-3{
+    background:url("../img/image3.jpeg");
+    background-size:100% 100%;
+}
+.carousel-img-4{
+    background:url("../img/image4.jpeg");
+   background-size:100% 100%;
+}
+
+#home2{
+    .fa{
+        font-size:$icon-size;
+    }
+}
+#get-start{
+    background: url('../img/image3.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-video{
+    background: url("../img/image4.jpeg");
+    background-size:100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    position:relative;
+    min-height:250px;
+    .dark-overlay{
+        width:100%;
+        height:100%;
+        background: $dark-overlay;
+        position:absolute;
+        top:0;
+        right:0;
+        left:0;
+    }
+    i{
+        font-size: $icon-size;
+    }
+
+}
+#photo-gallery{
+    img{
+        min-height:200px;
+    }
+}
+footer{
+    background: #000;
+    p{
+        margin-bottom: 0px;
+    }
+}
+
+
+// About Us page
+
+#about-us{
+    min-height:250px;
+    background: url('../img/image2.jpeg') no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+#what-we-do{
+    img{
+        width:350px;
+        height:350px;
+        border-radius:100%;
+    }
+}
+
+#icon-boxes{
+    .fa{
+        font-size:$icon-size ;
+        margin-bottom: 20px;
+    }
+}
+
+#testimonial{
+    .slick-prev:before, .slick-next:before{
+        color:#fff;
+        background: #333;
+    }
+}
+#services{
+background: url("../img/image3.jpeg") no-repeat;
+background-attachment: fixed;
+background-size:cover;
+}
+#blog{
+background: url("../img/image2.jpeg") no-repeat;
+background-attachment: fixed;
+background-size:cover;
+background-position:left;
+}
+#contact{
+background: url("../img/image3.jpeg") no-repeat;
+background-attachment: fixed;
+background-size:cover;
+background-position:left;
+}
+.card-columns{
+    img{
+        min-height:360px;
+        width:auto;
+    }
+}
+
+@media(max-width:768px){
+    .nav-item{
+        padding-left:0 !important ;
+    }
+    #copyright{
+        p{
+        font-size:100%;
+    }
+}
+#what-we-do img{
+    width:300px;
+    height:300px;
+    border-radius:100%;
+    margin: 15px 0px;
+}
+#icon-boxes{
+    .row1{
+        margin-top:-48px;
+    }
+}
+
+@media(max-width:480px){
+    .carousel{
+        h3{
+            font-size:2.5rem;
+        }
+    }
+}
+@media(max-width:420px){
+    #footer{
+        form{
+           display: block;
+        } 
+    }
+
+}
+@media(max-width:220px){
+    #footer{
+        form{
+            input{
+                width:90%;
+            }
+        }
+    }
+    #home-video{
+        h2,i{
+        font-size:100%;
+    }
+}
+}
+
+@media(max-width:576px){
+    }
+    #testimonial{
+        h2,p{
+            font-size:120%;
+        }
+
+    .slider{
+        margin: 0px 10px;
+       p{
+            font-size:14px;
+            color:green;
+        }
+    }    
+}
+#form-getintouch,#contact{
+    h2, h3, p, h4{
+        font-size:120%;
+    }
+}
+
+}
+   
